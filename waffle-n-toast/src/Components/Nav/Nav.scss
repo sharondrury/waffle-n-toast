@@ -1,0 +1,47 @@
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.section {
+  background-color: var(--green-dark);
+  padding: 20px 50px;
+  border-radius: 8px;  
+}
+
+.nav-links {
+  display: flex;
+  gap: 4.5rem;
+}
+
+.phone {
+  animation: vibrate 2s cubic-bezier(.36, .07, .19, .97) infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 300px;
+  width: 25px;
+}
+
+@keyframes vibrate {
+  0%{}
+	2%{transform: translateX(5px) rotateZ(1deg);}
+	4%{transform: translateX(-5px) rotateZ(-1deg);}
+	6%{transform: translateX(3px) rotateZ(2deg);}
+	8%{transform: translateX(-2px) rotateZ(-2deg);}
+	10%{transform: translateX(1px) rotateZ(2deg);}
+	12%{transform: translateX(-5px) rotateZ(-2deg);}
+	14%{transform: translateX(3px) rotateZ(-1deg);}
+	16%{transform: translateX(-5px) rotateZ(-2deg);}
+	18%{transform: translateX(5px) rotateZ(2deg);}
+	20%{transform: translateX(-5px) rotateZ(-2deg);}
+	22%{transform: translateX(5px) rotateZ(2deg);}
+	24%{transform: translateX(-3px) rotateZ(-2deg);}
+	26%{transform: translateX(0px) rotateZ(0deg);}
+	100%{}
+}

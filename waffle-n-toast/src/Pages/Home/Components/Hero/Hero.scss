@@ -1,0 +1,27 @@
+.hero-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-main-text {
+  font-size: 4.3rem;
+  color: white;
+  max-width: 700px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  height: 250px;
+}
+
+.hero-sub-text {
+  padding: 20px 0;
+  text-align: center;
+  max-width: 610px;
+  font-size: 0.9rem;
+}

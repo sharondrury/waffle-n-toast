@@ -1,0 +1,22 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  background: var(--green-light);
+}
+
+:root {
+  color-scheme: light dark;
+
+  --green-light: #4BC081;
+  --green-dark: #007033;
+
+  --bottom-color: #013117;
+  --right-color: #bbfad8;
+}

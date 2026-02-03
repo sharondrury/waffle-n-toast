@@ -29,7 +29,9 @@ const Hero = () => {
             customers.
           </h2>
         </div>
-        {/* <Button /> */}
+        <div>
+          <button className="button-primary">Get in touch</button>
+        </div>
       </section>
     </>
   );

@@ -24,4 +24,30 @@
   text-align: center;
   max-width: 610px;
   font-size: 0.9rem;
+  color: var(--sub-text-color);
+}
+
+.button-primary {
+  background-color: var(--green-dark);
+  color: white;
+  padding: 20px 100px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+  border: 1px solid #000;
+  box-shadow: 5px 5px #000;
+}
+
+.button-primary:hover {
+    background-color: #3e468e;
+}
+
+.button-primary:active {
+  background-color: #282e63;
+  border: 1px solid #000;
+  box-shadow: 2px 2px #000;
+  transform: translateY(4px);
 }

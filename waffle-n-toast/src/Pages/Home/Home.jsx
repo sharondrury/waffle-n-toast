@@ -5,7 +5,7 @@ import Hero from "./Components/Hero/Hero";
 const Home = () => {
     return (
         <div>
-            <Link to="/contact">Contact Us</Link>
+            {/* <Link to="/contact">Contact Us</Link> */}
             <Nav />
             <Hero />
         </div>

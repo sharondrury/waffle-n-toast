@@ -1,7 +1,5 @@
 import TypewriterClass from "typewriter-effect";
 import "./Hero.scss";
-// import "../../assets/scss/styles.scss";
-// import Button from "../buttons/buttons.jsx";
 
 const Hero = () => {
 

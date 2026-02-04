@@ -55,3 +55,20 @@
     line-height: 1.625;
   }
 }
+
+.scroll-in-container {
+    display: flex;
+    gap: 20px;
+    color: var(--sub-text-color);
+    max-width: 350px;
+
+.scroll-in-heading {
+  font-size: 1.5rem;
+
+}
+
+.scroll-in-subheading {
+    font-size: 1.2rem;
+}
+}
+

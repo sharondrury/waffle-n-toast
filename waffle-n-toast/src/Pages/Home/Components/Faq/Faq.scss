@@ -1,20 +1,30 @@
 .faq-background {
     background: white;
-    height: 100vh;
-    border-radius:  0px 0px 28px 28px;
+    height: 100%;
+    border-radius: 0px 0px 28px 28px;
+    padding: 50px 20px;
 }
 
+.accordion-container {
+    width: 100%;
 
-.accordion {
-  max-width: 600px;
-  margin: 20px auto;
-  font-family: Arial, sans-serif;
-  overflow: hidden;
+    .accordion {
+      max-width: 600px;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
 }
 
-.accordion-item {
-  
-  margin: 20px;
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    color: var(--sub-text-color);
 }
 
 .accordion-item:last-of-type {

@@ -3,6 +3,7 @@ import Nav from "../../Components/Nav/Nav";
 import Hero from "./Components/Hero/Hero";
 import Service from "./Components/Services/Service";
 import Faq from "./Components/Faq/Faq";
+import Showcase from "./Components/Showcase/Showcase";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero />
         <Service />
         <Faq />
+        <Showcase />
       </div>
     );
 }

@@ -1,6 +1,6 @@
 import "./Footer.scss";
 import "../../assets/scss/styles.scss";
-import { serviceCards } from "../../../../data/data";
+// import { serviceCards } from "../../../../data/data";
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import "./Footer.scss";
 import "../../assets/scss/styles.scss";
 // import { serviceCards } from "../../../../data/data";
-import CompanyLogo from "../../assets/images/WnT.png";
+import CompanyLogo from "../../assets/images/WnT.svg";
 
 const Footer = () => {
   return (

@@ -27,25 +27,25 @@ export const serviceCards = [
 export const faqSection = [
   {
     id: 1,
-    question: "1",
+    question: "One",
     answer:
-      "1",
+      "This is one",
   },
   {
     id: 2,
-    question: "2",
+    question: "Two",
     answer:
-      "2.",
+      "This might be 2.",
   },
   {
     id: 3,
-    question: "3",
+    question: "Three",
     answer:
-      "3",
+      "How about 3?",
   },
   {
     id: 4,
-    question: "4",
-    answer: "4",
+    question: "Four",
+    answer: "Well hello 4",
   },
 ];

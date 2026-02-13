@@ -16,8 +16,8 @@ const Faq = () => {
           {people.map((person) => (
             <div className="accordion" key={person.id}>
               <div className="accordion-item">
-                <input type="checkbox" id="item1" />
-                <label htmlFor="item1" className="accordion-header">
+                <input type="checkbox" id={person.id} />
+                <label htmlFor={person.id} className="accordion-header">
                   <span>{person.question}</span>
                   <span className="icon">+</span>
                 </label>

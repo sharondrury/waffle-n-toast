@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waffle-n-toast/static/css/main.8d632ee2.css",
-    "main.js": "/waffle-n-toast/static/js/main.a8178a74.js",
+    "main.js": "/waffle-n-toast/static/js/main.5e68d16f.js",
     "static/js/453.1add1f3d.chunk.js": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js",
     "static/media/WnT.svg": "/waffle-n-toast/static/media/WnT.fb05af59c3e44801524afb542d3c1fec.svg",
     "static/media/guy-salmon-website.png": "/waffle-n-toast/static/media/guy-salmon-website.f820e19cf9cf44945ba7.png",
@@ -12,11 +12,11 @@
     "index.html": "/waffle-n-toast/index.html",
     "static/media/mobile-icon.svg": "/waffle-n-toast/static/media/mobile-icon.c8db67962f4381a25f86753431e91c31.svg",
     "main.8d632ee2.css.map": "/waffle-n-toast/static/css/main.8d632ee2.css.map",
-    "main.a8178a74.js.map": "/waffle-n-toast/static/js/main.a8178a74.js.map",
+    "main.5e68d16f.js.map": "/waffle-n-toast/static/js/main.5e68d16f.js.map",
     "453.1add1f3d.chunk.js.map": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d632ee2.css",
-    "static/js/main.a8178a74.js"
+    "static/js/main.5e68d16f.js"
   ]
 }

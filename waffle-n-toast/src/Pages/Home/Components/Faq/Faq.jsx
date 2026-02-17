@@ -35,32 +35,6 @@ const Faq = () => {
       </div>
     </div>
   </div>
-  
-    // <div className="faq-background">
-    //   <div className="faq-container">
-    //     <div>
-    //       <h2>Frequently asked question at Waffles and Toast Web Creatives</h2>
-    //     </div>
-
-    //     <div className="accordion-container">
-    //       {people.map((person) => (
-    //         <div className="accordion" key={person.id}>
-    //           <div className="accordion-item">
-    //             <input type="checkbox" id={person.id} />
-    //             <label htmlFor={person.id} className="accordion-header">
-    //               <span>{person.question}</span>
-    //               <span className="icon">+</span>
-    //             </label>
-    //             <div className="accordion-content">
-    //               <p>{person.answer}</p>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </div>
-
   );
 };
 

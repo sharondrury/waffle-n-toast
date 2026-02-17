@@ -3,49 +3,20 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 
-import guySalmon from "../../../../assets/images/guy-salmon-website.png";
-import designLogo from "../../../../assets/images/design-logo.png";
-import hostingLogo from "../../../../assets/images/hosting-logo.png";
-import gailsTails from "../../../../assets/images/gails-tails.png";
-
-const ProductService = [
-  {
-    id: 1000,
-    name: "Guy Salmon Website",
-    description: "Company Site",
-    image: guySalmon,
-  },
-  {
-    id: 1001,
-    name: "Gails Tails Website",
-    description: "Company Site",
-    image: gailsTails,
-  },
-  {
-    id: 1002,
-    name: "Potato Watch",
-    description: "Product Description",
-    image: hostingLogo,
-  },
-  {
-    id: 1003,
-    name: "This is not a Watch",
-    description: "Product Description",
-    image: designLogo,
-  },
-];
+// import { showcaseContent } from "../../../../data/data/showcaseContent";
+import { showcaseContent } from "../../../../data/data";
 
 const Showcase = () => {
 
-     const [products, setProducts] = useState([]);
+     const [products] = useState(showcaseContent.slice(0, 9));
 
-     const addDefaultImg = (ev) => {
-       ev.target.src = "https://www.primefaces.org/cdn/primereact/images/product/no-image.png";
-     };
+    //  const addDefaultImg = (ev) => {
+    //    ev.target.src = "https://www.primefaces.org/cdn/primereact/images/product/no-image.png";
+    //  };
 
-     useEffect(() => {
-       setProducts(ProductService.slice(0, 9));
-     }, []);
+    //  useEffect(() => {
+    //    setProducts(showcaseContent.slice(0, 9));
+    //  }, []);
 
   const handleCardClick = (product) => {
     const url = product.url || `/product/${product.id}`;

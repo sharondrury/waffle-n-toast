@@ -2,6 +2,11 @@ import codeLogo from "../assets/images/code-logo.png"
 import designLogo from "../assets/images/design-logo.png"
 import hostingLogo from "../assets/images/hosting-logo.png";
 
+import guySalmon from "../assets/images/guy-salmon-website.png";
+import gailsTails from "../assets/images/gails-tails.png";
+import sharonOldWebsite from "../assets/images/sharon-js-website.png";
+import weatherApp from "../assets/images/weather-app.png";
+
 
 export const serviceCards = [
   {
@@ -47,5 +52,32 @@ export const faqSection = [
     id: 4,
     question: "Four",
     answer: "Well hello 4",
+  },
+];
+
+export const showcaseContent = [
+  {
+    id: 1000,
+    name: "Guy Salmon Website",
+    description: "Company Site",
+    image: guySalmon,
+  },
+  {
+    id: 1001,
+    name: "Gails Tails Website",
+    description: "Company Site",
+    image: gailsTails,
+  },
+  {
+    id: 1002,
+    name: "Potato Watch",
+    description: "Product Description",
+    image: sharonOldWebsite,
+  },
+  {
+    id: 1003,
+    name: "This is not a Watch",
+    description: "Product Description",
+    image: weatherApp,
   },
 ];

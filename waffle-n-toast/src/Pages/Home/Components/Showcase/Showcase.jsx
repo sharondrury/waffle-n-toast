@@ -2,6 +2,7 @@ import "./Showcase.scss";
 import React from "react";
 
 import { useState, useEffect } from "react";
+import ShowcaseModal from "./ShowcaseModal";
 
 // import { showcaseContent } from "../../../../data/data/showcaseContent";
 import { showcaseContent } from "../../../../data/data";
@@ -18,10 +19,17 @@ const Showcase = () => {
     //    setProducts(showcaseContent.slice(0, 9));
     //  }, []);
 
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
   const handleCardClick = (product) => {
-    const url = product.url || `/product/${product.id}`;
-    // default navigation behavior — change as needed
-    window.location.href = url;
+    setSelectedProduct(product);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setSelectedProduct(null);
   };
 
 const productTemplate = (product) => {
@@ -145,6 +153,7 @@ const ContinuousMarquee = ({ items }) => {
           <ContinuousMarquee items={products} />
         </div>
       </div>
+      <ShowcaseModal open={modalOpen} product={selectedProduct} onClose={closeModal} />
     </>
   );
 };

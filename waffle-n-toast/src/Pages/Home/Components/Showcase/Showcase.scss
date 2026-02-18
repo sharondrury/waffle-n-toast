@@ -51,6 +51,12 @@
     will-change: transform;
 }
 
+/* Pause animation when hovering anywhere over the marquee (including cards) */
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+    animation-play-state: paused;
+}
+
 .marquee-group {
     display: flex;
     flex: 0 0 auto;
@@ -97,5 +103,59 @@
 .card-outer.clickable:focus {
     outline: none;
     box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.12);
+}
+
+/* Simple modal styles for ShowcaseModal */
+.showcase-modal__overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1200;
+}
+
+.showcase-modal__content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    width: 95%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.showcase-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.showcase-modal__close {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.showcase-modal__body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.showcase-modal__image {
+    width: 320px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    flex: 0 0 auto;
+}
+
+.showcase-modal__meta {
+    flex: 1 1 auto;
 }
 

@@ -4,6 +4,7 @@ import "../../assets/scss/styles.scss";
 import CompanyLogo from "../../assets/images/WnT.svg";
 
 const Footer = () => {
+  
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -44,7 +45,10 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>&copy;Copyright Waffle and Toast. All rights reserved.</p>
+        <p>
+          &copy;Copyright {new Date().getFullYear()} Waffle and Toast. All
+          rights reserved.
+        </p>
       </div>
     </footer>
   );

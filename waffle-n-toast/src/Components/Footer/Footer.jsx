@@ -9,12 +9,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-container-grid">
-          <div class="left-content">
+          <div className="left-content">
             <img src={CompanyLogo} alt="" />
             <p>1 address, Town, LL21 9PA</p>
             <p>email@email.com</p>
           </div>
-          <div class="middle-content">
+          <div className="middle-content">
             <a href="#">
               <p>Home</p>
             </a>
@@ -28,7 +28,7 @@ const Footer = () => {
               <p>Blog</p>
             </a>
           </div>
-          <div class="middle-content">
+          <div className="middle-content">
             <a href="#">
               <p>Home</p>
             </a>

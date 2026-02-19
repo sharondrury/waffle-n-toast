@@ -7,6 +7,7 @@ import Showcase from "./Components/Showcase/Showcase";
 import ClientList from "./Components/ClientList/ClientList";
 import ScrollReveal from "./Components/ScrollReveal/ScrollReveal";
 import Footer from "../../Components/Footer/Footer";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Faq />
         <Showcase />
         <ClientList />
+        <Contact />
         <Footer />
         {/* <ScrollReveal /> */}
       </div>

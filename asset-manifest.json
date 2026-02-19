@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/waffle-n-toast/static/css/main.8d632ee2.css",
-    "main.js": "/waffle-n-toast/static/js/main.5e68d16f.js",
+    "main.css": "/waffle-n-toast/static/css/main.7174a855.css",
+    "main.js": "/waffle-n-toast/static/js/main.8bb043ca.js",
     "static/js/453.1add1f3d.chunk.js": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js",
+    "static/media/primeicons.svg": "/waffle-n-toast/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/WnT.svg": "/waffle-n-toast/static/media/WnT.fb05af59c3e44801524afb542d3c1fec.svg",
     "static/media/guy-salmon-website.png": "/waffle-n-toast/static/media/guy-salmon-website.f820e19cf9cf44945ba7.png",
+    "static/media/weather-app.png": "/waffle-n-toast/static/media/weather-app.abc7564a821d69c01602.png",
+    "static/media/primeicons.eot": "/waffle-n-toast/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/waffle-n-toast/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/waffle-n-toast/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/gails-tails.png": "/waffle-n-toast/static/media/gails-tails.fae0d2c45ade89d1e096.png",
-    "static/media/network.svg": "/waffle-n-toast/static/media/network.327bbdaadba3291106597201f63a8782.svg",
-    "static/media/Group4.svg": "/waffle-n-toast/static/media/Group4.43c0ef6d8ad8437add71c41471f89707.svg",
-    "static/media/Group12.svg": "/waffle-n-toast/static/media/Group12.2a51bcf79e998b06b0af416bb1917049.svg",
+    "static/media/primeicons.woff2": "/waffle-n-toast/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/sharon-js-website.png": "/waffle-n-toast/static/media/sharon-js-website.005790ecc2b99d66695e.png",
+    "static/media/guy-salmon-website-logo.svg": "/waffle-n-toast/static/media/guy-salmon-website-logo.6793f72c4c1322701e724de92c684367.svg",
+    "static/media/gails-tails-logo.svg": "/waffle-n-toast/static/media/gails-tails-logo.907500eb664ac60c269ad3aef689af55.svg",
+    "static/media/weather-app-logo.svg": "/waffle-n-toast/static/media/weather-app-logo.180877536ebf0b1c44abc6d88d4e9bae.svg",
+    "static/media/sharon-js-website-logo.svg": "/waffle-n-toast/static/media/sharon-js-website-logo.07af8b589cd4535a7973c3db56d32806.svg",
     "index.html": "/waffle-n-toast/index.html",
     "static/media/mobile-icon.svg": "/waffle-n-toast/static/media/mobile-icon.c8db67962f4381a25f86753431e91c31.svg",
-    "main.8d632ee2.css.map": "/waffle-n-toast/static/css/main.8d632ee2.css.map",
-    "main.5e68d16f.js.map": "/waffle-n-toast/static/js/main.5e68d16f.js.map",
+    "main.7174a855.css.map": "/waffle-n-toast/static/css/main.7174a855.css.map",
+    "main.8bb043ca.js.map": "/waffle-n-toast/static/js/main.8bb043ca.js.map",
     "453.1add1f3d.chunk.js.map": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d632ee2.css",
-    "static/js/main.5e68d16f.js"
+    "static/css/main.7174a855.css",
+    "static/js/main.8bb043ca.js"
   ]
 }

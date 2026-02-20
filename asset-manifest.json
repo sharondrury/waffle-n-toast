@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waffle-n-toast/static/css/main.7174a855.css",
-    "main.js": "/waffle-n-toast/static/js/main.8bb043ca.js",
+    "main.js": "/waffle-n-toast/static/js/main.ac80c815.js",
     "static/js/453.1add1f3d.chunk.js": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js",
     "static/media/primeicons.svg": "/waffle-n-toast/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/WnT.svg": "/waffle-n-toast/static/media/WnT.fb05af59c3e44801524afb542d3c1fec.svg",
@@ -20,11 +20,11 @@
     "index.html": "/waffle-n-toast/index.html",
     "static/media/mobile-icon.svg": "/waffle-n-toast/static/media/mobile-icon.c8db67962f4381a25f86753431e91c31.svg",
     "main.7174a855.css.map": "/waffle-n-toast/static/css/main.7174a855.css.map",
-    "main.8bb043ca.js.map": "/waffle-n-toast/static/js/main.8bb043ca.js.map",
+    "main.ac80c815.js.map": "/waffle-n-toast/static/js/main.ac80c815.js.map",
     "453.1add1f3d.chunk.js.map": "/waffle-n-toast/static/js/453.1add1f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7174a855.css",
-    "static/js/main.8bb043ca.js"
+    "static/js/main.ac80c815.js"
   ]
 }

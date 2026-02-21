@@ -1,7 +1,19 @@
 import TypewriterClass from "typewriter-effect";
 import "./Hero.scss";
+import { useState } from "react";
+import ContactModal from "./Components/GetInTouchModal/ContactModal";
 
 const Hero = () => {
+
+  const [modalOpen, setModalOpen] = useState(false);
+  
+    const openModal = () => {
+      setModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setModalOpen(false);
+    };
 
   return (
     <>
@@ -28,9 +40,12 @@ const Hero = () => {
           </h2>
         </div>
         <div>
-          <button className="button-primary">Get in touch</button>
+          <button className="button-primary" onClick={openModal}>
+            Get in touch
+          </button>
         </div>
       </section>
+      <ContactModal open={modalOpen} onClose={closeModal} />
     </>
   );
 };

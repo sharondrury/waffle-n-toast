@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="contact-side">
           <h2>Get in touch</h2>
           <p>
-            Even if you haven’t read exactly what you came here for, send us a
+            Even if you haven't read exactly what you came here for, send us a
             message and we can work it out together.
           </p>
           <div className="contact-animation" aria-hidden="true">
@@ -27,9 +27,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginTop: 20 }}>
+      {/* <div style={{ marginTop: 20 }}>
         <Link to="/">Go back home</Link>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -41,11 +41,13 @@
 }
 
 .btn-primary {
-  background: #4BC081;
+  background: var(--green-dark);
+  width: 220px;
   border: none;
   color: white;
-  padding: 10px 16px;
+  padding: 10px 40px;
   border-radius: 6px;
+  font-size: 1.1rem;
   cursor: pointer;
 }
 

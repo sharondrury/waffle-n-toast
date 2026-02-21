@@ -26,6 +26,7 @@
   }
   .phone-container {
     padding: 10px 35px;
+    cursor: pointer;
     
     .phone {
       animation: vibrate 2s cubic-bezier(.36, .07, .19, .97) infinite;

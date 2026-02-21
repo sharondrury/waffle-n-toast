@@ -24,17 +24,27 @@ const Faq = () => {
   };
 
   return (
-  <div className="faq-background">
-    <div className="faq-container">
-      <div>
-        <h2>Frequently asked question at Waffles and Toast Web Creatives</h2>
-      </div>
+    <div className="faq-background">
+      <div className="faq-container">
+        <div className="floating-letters one">
+          <div className="float-one">?</div>
+        </div>
+        <div className="floating-letters two">
+          <div className="float-two">?</div>
+        </div>
+        <div className="floating-letters three">
+          <div className="float-three">?</div>
+        </div>
+        <div className="floating-letters four">
+          <div className="float-four">?</div>
+        </div>
+          <h2>Frequently asked question at Waffles and Toast Web Creatives</h2>
+        </div>
 
-      <div className="accordion-container">
-        <Accordion className="accordion">{createDynamicTabs()}</Accordion>
+        <div className="accordion-container">
+          <Accordion className="accordion">{createDynamicTabs()}</Accordion>
+        </div>
       </div>
-    </div>
-  </div>
   );
 };
 

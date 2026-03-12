@@ -14,23 +14,38 @@ export default function ShowcaseModal({ open, product, onClose }) {
   if (!open || !product) return null;
 
   return (
-    <div className="showcase-modal__overlay" role="dialog" aria-modal="true">
-      <div className="showcase-modal__content">
+    <div className="showcase-modal__overlay" role="dialog" aria-modal="true" onClick={onClose}>
+      <div className="showcase-modal__content" onClick={(e) => e.stopPropagation()}>
         <div className="showcase-modal__header">
           <h3>{product.name || "Details"}</h3>
-          <button className="showcase-modal__close" onClick={onClose} aria-label="Close">×</button>
+          <button
+            className="showcase-modal__close"
+            onClick={onClose}
+            aria-label="Close"
+          >
+            ×
+          </button>
         </div>
 
         <div className="showcase-modal__body">
-          <div
-            className="showcase-modal__image"
-            style={{ backgroundImage: `url(${product.image})` }}
-            role="img"
-            aria-label={product.name}
-          />
+          <div className="showcase-modal__images">
+            {[0, 1, 2].map((i) => (
+              <div
+                key={i}
+                className="showcase-modal__image"
+                style={{ backgroundImage: `url(${product.image})` }}
+                role="img"
+                aria-label={product.name}
+              />
+            ))}
+          </div>
 
           <div className="showcase-modal__meta">
-            <p>{product.description || product.caption || "No description available."}</p>
+            <p>
+              {product.description ||
+                product.caption ||
+                "No description available."}
+            </p>
             {product.url && (
               <p>
                 <a href={product.url} target="_blank" rel="noopener noreferrer">

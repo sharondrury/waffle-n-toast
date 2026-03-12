@@ -123,11 +123,17 @@ const ContinuousMarquee = ({ items }) => {
         <div
           className="marquee-track"
           ref={trackRef}
-          style={{ ["--marquee-duration"]: `${duration}s`, ["--marquee-shift"]: `${groupWidth}px` }}
+          style={{
+            ["--marquee-duration"]: `${duration}s`,
+            ["--marquee-shift"]: `${groupWidth}px`,
+          }}
         >
           <div className="marquee-group" ref={firstGroupRef}>
             {group.map((p, idx) => (
-              <div className="marquee-item" key={`g1-${p.id}-${p.__origIndex}-${idx}`}>
+              <div
+                className="marquee-item"
+                key={`g1-${p.id}-${p.__origIndex}-${idx}`}
+              >
                 {productTemplate(p)}
               </div>
             ))}
@@ -135,7 +141,10 @@ const ContinuousMarquee = ({ items }) => {
 
           <div className="marquee-group">
             {group.map((p, idx) => (
-              <div className="marquee-item" key={`g2-${p.id}-${p.__origIndex}-${idx}`}>
+              <div
+                className="marquee-item"
+                key={`g2-${p.id}-${p.__origIndex}-${idx}`}
+              >
                 {productTemplate(p)}
               </div>
             ))}
@@ -148,12 +157,16 @@ const ContinuousMarquee = ({ items }) => {
 
   return (
     <>
-      <div className="showcase-background">
+      <div className="showcase-background" id="showcase">
         <div className="card-other">
           <ContinuousMarquee items={products} />
         </div>
       </div>
-      <ShowcaseModal open={modalOpen} product={selectedProduct} onClose={closeModal} />
+      <ShowcaseModal
+        open={modalOpen}
+        product={selectedProduct}
+        onClose={closeModal}
+      />
     </>
   );
 };

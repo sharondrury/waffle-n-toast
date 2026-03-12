@@ -61,23 +61,27 @@ export const showcaseContent = [
     name: "Guy Salmon Website",
     description: "Company Site",
     image: guySalmon,
+    change: "guy-salmon-website",
   },
   {
     id: 1001,
     name: "Gails Tails Website",
     description: "Company Site",
     image: gailsTails,
+    change: "guy-salmon-website",
   },
   {
     id: 1002,
     name: "Potato Watch",
     description: "Product Description",
     image: sharonOldWebsite,
+    change: "guy-salmon-website",
   },
   {
     id: 1003,
     name: "This is not a Watch",
     description: "Product Description",
     image: weatherApp,
+    change: "guy-salmon-website",
   },
 ];

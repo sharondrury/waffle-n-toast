@@ -3,6 +3,8 @@ import '../../assets/scss/styles.scss';
 import CompanyLogo from "../../assets/images/WnT.svg";
 import Mobile from "../../assets/images/mobile-icon.svg";
 import ContactModal from "../../Pages/Home/Components/Hero/Components/GetInTouchModal/ContactModal";
+import About from '../../Pages/About/About';
+import { Link } from 'react-router-dom';
 
 import { useState } from "react";
 
@@ -23,11 +25,21 @@ const Nav = () => {
       <section>
         <div className="nav-container">
           <div className="section">
-            <img className="logo-image" src={CompanyLogo} alt="Company logo" />
+            <Link to="/">
+              <img
+                className="logo-image"
+                src={CompanyLogo}
+                alt="Company logo"
+              />
+            </Link>
           </div>
           <div className="section nav-links">
-            <div>About</div>
-            <div>Showcase</div>
+            <Link className="link" to="/about">
+              About
+            </Link>
+            <a className="link" href="#showcase">
+              Showcase
+            </a>
             <div>Pricing</div>
           </div>
           <div className="section phone-container" onClick={openModal}>
